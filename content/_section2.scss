@@ -1,0 +1,50 @@
+
+$mainBackground: hsl(218, 28%, 13%);
+
+#section2 {
+    background: $mainBackground;
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding: 2em;
+
+    h2 {
+        color: #fff;
+        padding: 1em 0;
+    }
+
+    p {
+        color: #fff;
+        line-height: 1.3;
+        padding-bottom: 4em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    #section2 {
+        background: $mainBackground;
+        background-image: url(../images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        padding: 2em 4em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 100px;
+    
+        h2 {
+            color: #fff;
+            padding: 1em 0;
+        }
+    
+        p {
+            color: #fff;
+            line-height: 1.3;
+            padding-bottom: 4em;
+        }
+    }
+}
+
+

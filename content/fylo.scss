@@ -1,0 +1,35 @@
+
+@import "./header";
+@import "./section1";
+@import "./section2";
+@import "./section3";
+@import "./section4";
+@import "./footer";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+//font-family: 'Raleway', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+//font-family: 'Open Sans', sans-serif;
+
+
+$intro-and-emailSignUpBackground: hsl(217, 28%, 15%);
+$mainBackground: hsl(218, 28%, 13%);
+$footerBackground: hsl(216, 53%, 9%);
+$testimonialsBackground: hsl(219, 30%, 18%);
+
+$insidecall-to-actiongradient: hsl(176, 68%, 64%);
+$insidecall-to-actiongradient: hsl(198, 60%, 50%);
+$error: hsl(0, 100%, 63%);
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: $mainBackground;
+}
+

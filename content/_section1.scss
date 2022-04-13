@@ -1,0 +1,128 @@
+
+$intro-and-emailSignUpBackground: hsl(217, 28%, 15%);
+$mainBackground: hsl(218, 28%, 13%);
+$footerBackground: hsl(216, 53%, 9%);
+$testimonialsBackground: hsl(219, 30%, 18%);
+
+$insidecall-to-actiongradient1: hsl(176, 68%, 64%);
+$insidecall-to-actiongradient2: hsl(198, 60%, 50%);
+$error: hsl(0, 100%, 63%);
+
+
+#section1 {
+    padding: 4em;
+    text-align: center;
+    background-color: $intro-and-emailSignUpBackground;
+
+    .intro-image {
+        width: 100%;
+    }
+
+    h1 {
+        color: #fff;
+        margin: 1em 0;
+    }
+
+    p {
+        color: #fff;
+        margin-bottom: 1em;
+        line-height: 1.5;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 15px 0;
+        border: none;
+        border-radius: 2em;
+        cursor: pointer;
+    }
+
+    .btn-head {
+        color: #fff;
+        background-color: $insidecall-to-actiongradient2;
+        font-weight: 600;
+    }
+    .btn-head:hover {
+        background-color: $insidecall-to-actiongradient1;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #section1 {
+        padding: 2em 4em;
+        text-align: center;
+        
+
+    
+        .intro-image {
+            width: 50%;
+        }
+    
+        h1 {
+            color: #fff;
+            margin: 1em 0;
+        }
+    
+        p {
+            color: #fff;
+            margin-bottom: 1em;
+            line-height: 1.5;
+        }
+    
+        .btn {
+            width: 40%;
+            padding: 15px 0;
+            border: none;
+            border-radius: 2em;
+        }
+    
+        .btn-head {
+            color: #fff;
+            background-color: $insidecall-to-actiongradient2;
+            font-weight: 600;
+        }
+        .btn-head:hover {
+            background-color: $insidecall-to-actiongradient1;
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    #section1 {
+        padding: 2em 4em;
+        text-align: center;
+        
+
+    
+        .intro-image {
+            width: 30%;
+        }
+    
+        h1 {
+            color: #fff;
+            margin: 1em 0;
+        }
+    
+        p {
+            color: #fff;
+            margin-bottom: 1em;
+            line-height: 1.5;
+        }
+    
+        .btn {
+            width: 20%;
+            padding: 15px 0;
+            border: none;
+            border-radius: 2em;
+        }
+    
+        .btn-head {
+            color: #fff;
+            background-color: $insidecall-to-actiongradient2;
+            font-weight: 600;
+        }
+        .btn-head:hover {
+            background-color: $insidecall-to-actiongradient1;
+        }
+    }
+}
